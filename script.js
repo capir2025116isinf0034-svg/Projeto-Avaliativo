@@ -21,3 +21,40 @@ function mostrarCuriosidade(){
     }
 
 }
+
+function mostrarPlanta1(){
+
+    document.getElementById("info1").style.display="block";
+
+}
+
+function fecharPlanta1(){
+
+    document.getElementById("info1").style.display="none";
+
+}
+
+function mostrarPlanta2(){
+
+    document.getElementById("info2").style.display="block";
+
+}
+
+function fecharPlanta2(){
+
+    document.getElementById("info2").style.display="none";
+
+}
+
+function mostrarPlanta3(){
+
+    document.getElementById("info3").style.display="none";
+    document.getElementById("info3").style.display="block";
+
+}
+
+function fecharPlanta3(){
+
+    document.getElementById("info3").style.display="none";
+
+}
