@@ -59,19 +59,21 @@ function fecharPlanta3(){
 
 }
 
-function alternarInfo(id){
+function alternarInfo(id, botao){
 
     let caixa = document.getElementById(id);
 
-    if(caixa.style.display == "block"){
+    if(caixa.style.display === "block"){
 
         caixa.style.display = "none";
+        botao.innerHTML = "Ver resposta";
 
     }
 
     else{
 
         caixa.style.display = "block";
+        botao.innerHTML = "Ocultar resposta";
 
     }
 
