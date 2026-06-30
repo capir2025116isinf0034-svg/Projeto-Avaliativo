@@ -58,3 +58,21 @@ function fecharPlanta3(){
     document.getElementById("info3").style.display="none";
 
 }
+
+function alternarInfo(id){
+
+    let caixa = document.getElementById(id);
+
+    if(caixa.style.display == "block"){
+
+        caixa.style.display = "none";
+
+    }
+
+    else{
+
+        caixa.style.display = "block";
+
+    }
+
+}
