@@ -1,22 +1,152 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Projeto Avaliativo</title>
+
+    <title>Alerta Verde</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
 </head>
 
 <body>
+
+    <!-- Cabeçalho -->
     <header>
-        <h1>Plantas Venenosas</h1>
+
+        <div class="logo">
+
+            <h1>🌿 Alerta Verde</h1>
+
+            <p>Guia das Plantas Venenosas do Brasil</p>
+
+        </div>
+
+        <nav>
+
+            <a href="index.html">Início</a>
+
+            <a href="plantas.html">Plantas</a>
+
+            <a href="nordeste.html">Nordeste</a>
+
+            <a href="cuidados.html">Cuidados</a>
+
+            <a href="curiosidades.html">Curiosidades</a>
+
+            <a href="quiz.html">Quiz</a>
+
+            <a href="contato.html">Contato</a>
+
+        </nav>
+
     </header>
 
-    <nav>
-        <a href="./contato.html">contato</a>
-    </nav>
 
-    <img src="./img/Dieffenbachia_bauseii_blog.jpg" alt="" >
-     <p> Comigo-ninguém-pode (Dieffenbachia picta) </p>
+    <!-- Banner -->
+
+    <section class="banner">
+
+        <div class="banner-texto">
+
+            <h2>Conheça para se proteger</h2>
+
+            <p>
+
+                Muitas plantas possuem substâncias tóxicas que podem causar intoxicações em pessoas e animais.
+                Neste site você conhecerá as principais espécies encontradas no Brasil, com destaque para a região Nordeste.
+
+            </p>
+
+            <a href="plantas.html" class="botao">
+
+                Explorar Plantas
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Cards -->
+
+    <section class="cards">
+
+        <div class="card">
+
+            <h3>🌿 Plantas</h3>
+
+            <p>
+
+                Conheça diversas plantas venenosas encontradas no Brasil.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>📍 Nordeste</h3>
+
+            <p>
+
+                Descubra quais espécies são mais comuns na região Nordeste.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>⚠️ Cuidados</h3>
+
+            <p>
+
+                Saiba como prevenir acidentes e agir corretamente.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Curiosidade -->
+
+    <section class="curiosidade">
+
+        <h2>💡 Curiosidade do Dia</h2>
+
+        <button onclick="mostrarCuriosidade()">
+
+            Mostrar Curiosidade
+
+        </button>
+
+        <p id="textoCuriosidade"></p>
+
+    </section>
+
+
+    <!-- Rodapé -->
+
+    <footer>
+
+        <p>
+
+            © 2026 - Alerta Verde | Projeto Acadêmico
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
