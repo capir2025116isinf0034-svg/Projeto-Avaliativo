@@ -1,4 +1,217 @@
-body { background-color: #D4Af83; margin: 0%; }
-p { font-family: Georgia; }
-header { background-color: #183451; padding: 15px; }
-h1 { text-align: center; color: white; padding: 40px;  }
+/* ===== CONFIGURAÇÕES GERAIS ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, sans-serif;
+
+    background:#F1E2D0;
+
+}
+
+/* ===== CABEÇALHO ===== */
+
+header{
+
+    background:#183451;
+
+    color:white;
+
+    padding:20px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+}
+
+.logo p{
+
+    color:#D4AF83;
+
+}
+
+/* ===== MENU ===== */
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin:12px;
+
+    font-weight:bold;
+
+}
+
+nav a:hover{
+
+    color:#D67B2A;
+
+}
+
+/* ===== BANNER ===== */
+
+.banner{
+
+    height:500px;
+
+    background-image:url("img/fundo.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.banner-texto{
+
+    width:420px;
+
+    background:rgba(24,52,81,0.85);
+
+    color:white;
+
+    margin-left:60px;
+
+    padding:30px;
+
+    border-radius:15px;
+
+}
+
+.banner-texto h2{
+
+    font-size:38px;
+
+    margin-bottom:20px;
+
+}
+
+.banner-texto p{
+
+    margin-bottom:25px;
+
+    line-height:28px;
+
+}
+
+/* ===== BOTÃO ===== */
+
+.botao{
+
+    background:#D67B2A;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 30px;
+
+    border-radius:10px;
+
+}
+
+.botao:hover{
+
+    background:#A6502A;
+
+}
+
+/* ===== CARDS ===== */
+
+.cards{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+    padding:60px 20px;
+
+}
+
+.card{
+
+    width:300px;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+
+}
+
+/* ===== CURIOSIDADE ===== */
+
+.curiosidade{
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+.curiosidade button{
+
+    margin-top:20px;
+
+    padding:12px 25px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#183451;
+
+    color:white;
+
+    cursor:pointer;
+
+}
+
+.curiosidade p{
+
+    margin-top:20px;
+
+    font-weight:bold;
+
+}
+
+/* ===== RODAPÉ ===== */
+
+footer{
+
+    background:#183451;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+    margin-top:50px;
+
+}
