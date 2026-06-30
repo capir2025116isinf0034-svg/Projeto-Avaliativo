@@ -336,3 +336,59 @@ footer{
     background:#F7F2EB;
 
 }
+
+/* ===== CURIOSIDADES ===== */
+
+.curiosidades{
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:40px 20px;
+
+}
+
+.mito{
+
+    background:white;
+
+    margin-bottom:25px;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 0 8px rgba(0,0,0,.15);
+
+}
+
+.mito h3{
+
+    color:#183451;
+
+    margin-bottom:15px;
+
+}
+
+.mito button{
+
+    background:#D67B2A;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+}
+
+.mito button:hover{
+
+    background:#A6502A;
+
+}
