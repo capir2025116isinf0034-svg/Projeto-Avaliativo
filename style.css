@@ -9,7 +9,6 @@
 body{
 
     font-family:Arial, sans-serif;
-
     background:#F1E2D0;
 
 }
@@ -19,17 +18,11 @@ body{
 header{
 
     background:#183451;
-
     color:white;
-
     padding:20px;
-
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
-
     flex-wrap:wrap;
 
 }
@@ -45,11 +38,8 @@ header{
 nav a{
 
     color:white;
-
     text-decoration:none;
-
     margin:12px;
-
     font-weight:bold;
 
 }
@@ -71,7 +61,7 @@ nav a:hover{
             rgba(24,52,81,0.70),
             rgba(24,52,81,0.70)
         ),
-        url("img/fundo.jpg");
+        url("fundo.jpg");
 
     background-size:cover;
 
@@ -244,14 +234,11 @@ footer{
 .cards{
 
     display:flex;
-
     justify-content:center;
-
     gap:30px;
-
     flex-wrap:wrap;
-
     padding:20px 30px 60px;
+    align-items:flex-start;
 
 }
 
