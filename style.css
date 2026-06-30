@@ -66,7 +66,12 @@ nav a:hover{
 
     height:500px;
 
-    background-image:url("img/fundo.jpg");
+    background:
+        linear-gradient(
+            rgba(24,52,81,0.70),
+            rgba(24,52,81,0.70)
+        ),
+        url("img/fundo.jpg");
 
     background-size:cover;
 
